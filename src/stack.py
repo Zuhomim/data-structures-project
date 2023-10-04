@@ -14,8 +14,6 @@ class Node:
 class Stack:
     """Класс для стека"""
 
-    top = []
-
     def __init__(self):
         """Конструктор класса Stack"""
         self.top = None
