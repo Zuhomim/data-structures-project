@@ -32,8 +32,6 @@ class Queue:
         else:
             self.tail.next_node = new_node
             self.tail = new_node
-        # new_node.next_node = self.head
-        # self.head = new_node
 
     def dequeue(self):
         """
@@ -53,4 +51,3 @@ class Queue:
             return f"{self.head.data}\n{self.head.next_node.data}\n{self.tail.data}"
         else:
             return ""
-
